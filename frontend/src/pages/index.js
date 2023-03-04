@@ -187,6 +187,9 @@ export default function Home() {
         {web3Provider ? (
           <>
             {/* AFTER LOGIN */}
+            <div className='text-white font-gaj font-bold text-xl'>
+              Hello {address}
+            </div>
             <div className="bg-gray-50 min-h-screen flex flex-col items-center justify-center font-sans">
               <div className="bg-white rounded-lg shadow-md w-full max-w-lg">
                 <div className="bg-secondary text-white font-gaj font-bold text-xl px-4 py-3 rounded-t-lg">
